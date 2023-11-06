@@ -1,0 +1,17 @@
+.JobHuntDesire-Drawer .ant-drawer-header {
+  padding: 10px 16px;
+}
+.JobHuntDesire-Drawer .ant-drawer-header-title {
+  flex-direction: row-reverse;
+}
+.JobHuntDesire-Drawer .ant-drawer-close {
+  margin: 0;
+}
+.JobHuntDesire-Drawer .ant-drawer-footer {
+  display: flex;
+  justify-content: end;
+  padding: 10px 16px;
+}
+.JobHuntDesire-Drawer .ant-drawer-footer .ant-btn:last-child {
+  margin-left: 6px;
+}

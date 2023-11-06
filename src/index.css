@@ -1,0 +1,92 @@
+/* 样式的重置 */
+* {
+  box-sizing: border-box;
+}
+
+body, html, h1, h2, h3, h4, h5, h6, ul, ol, li, dl, dt, dd, header, menu, section, p, input, td, th, ins {
+  padding: 0;
+  margin: 0;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+a:hover {
+  color: #666;
+  text-decoration: underline;
+}
+
+i, em {
+  font-style: normal;
+}
+
+input, textarea, button, select, a {
+  outline: none;
+  border: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  border: none;
+  vertical-align: middle;
+}
+
+/* 全局样式 */
+body, textarea, select, input, button {
+  font-size: 12px;
+  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+}
+
+.text-nowrap {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.fontsize-10{
+  font-size: 10px!important;
+}
+
+.fontsize-12{
+  font-size: 12px!important;
+}
+
+.fontsize-14{
+  font-size: 14px!important;
+}
+
+.fontsize-15{
+  font-size: 15px!important;
+}
+
+.fontsize-16{
+  font-size: 16px!important;
+}
+
+.fontsize-18{
+  font-size: 18px!important;
+}
+
+.fontsize-20{
+  font-size: 20px!important;
+}
+
+.fontsize-22{
+  font-size: 22px!important;
+}
+
+.fontsize-24{
+  font-size: 24px!important;
+}
